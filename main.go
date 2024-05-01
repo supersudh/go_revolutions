@@ -7,6 +7,8 @@ package main
 import "fmt"
 
 func main() {
-	const name, age = "Sudharsan", 0024
-	fmt.Println("%s is %d years old.\n", name, age) // TODO: [supersudh] fmt.Println call has possible Printf formatting directive %sprintfdefault
+	const name = "Sudharsan Ravikumar"
+	const age = 24
+
+	fmt.Printf("%s is %d years old \n", name, age)
 }
